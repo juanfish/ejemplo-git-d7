@@ -12,6 +12,8 @@ type
     { Private declarations }
   public
     { Public declarations }
+    procedure calculaNumero();
+
   end;
 
 var
@@ -20,5 +22,12 @@ var
 implementation
 
 {$R *.dfm}
+
+{ TForm1 }
+
+procedure TForm1.calculaNumero;
+begin
+  ShowMessage('hola');
+end;
 
 end.
